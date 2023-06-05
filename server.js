@@ -8,10 +8,15 @@ const app = express();
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
-app.use(express.static("./public/"));
+app.use(express.static('public'));
 
-require("./routes/apiRoutes.js")(app);
-require("./routes/htmlRoutes.js")(app);
+// app.get('/apiRoutes', (req,res)=>
+//     res.sendFile(path.join(__dirname, '/public/routes'))
+// );
+
+// app.get('/htmlRoutes',(req,res)=>
+//     res.sendFile(path.join(__dirname, '/public/routes'))
+// );
 
 app.listen(PORT, function(){
     console.log("App Listening on PORT" + PORT);
