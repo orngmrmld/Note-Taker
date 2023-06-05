@@ -14,3 +14,6 @@ To use the app, click the link to get you to the website and after that utilize 
 ## Links
 Github: https://github.com/orngmrmld/Note-Taker
 heroku: https://marcus-note-taker.herokuapp.com/
+
+## Credits
+Credit to classmate Sarah M. for providing helpful psuedo code and debugging. 
