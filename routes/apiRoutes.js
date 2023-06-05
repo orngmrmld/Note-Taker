@@ -1,4 +1,4 @@
-const db = require("../db/db.json");
+const db = require("../Develop/db/db.json");
 module.exports = function(app) {
 
     app.get("/api/notes/", function(req,res) {
